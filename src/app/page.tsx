@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <header className={styles.topbar}>
-        <p className={styles.brand}>GDVAFRICA</p>
+        <p className={styles.brand}>GDV ALLIANCE</p>
         <nav className={styles.nav}>
           <a href="#about">About</a>
           <a href="#focus">Focus Areas</a>
@@ -15,15 +15,15 @@ export default function Home() {
 
       <main className={styles.main}>
         <section className={styles.hero}>
-          <p className={styles.eyebrow}>Pan-African Growth Platform</p>
+          <p className={styles.eyebrow}>Global Growth Platform</p>
           <h1>
             Global Digital Value &amp; Future, powered by the Resource &amp;
             Investment Corporate Alliance.
           </h1>
           <p className={styles.heroText}>
-            GDVAFRICA brings investors, institutions, innovators, and industry
-            leaders together to unlock sustainable digital and economic
-            transformation across Africa.
+            GDV Alliance brings investors, institutions, innovators, and
+            industry leaders together to unlock sustainable digital and
+            economic transformation across emerging markets.
           </p>
           <div className={styles.ctas}>
             <a className={styles.primary} href="#connect">
@@ -36,7 +36,7 @@ export default function Home() {
         </section>
 
         <section id="about" className={styles.section}>
-          <h2>What GDVAFRICA Means</h2>
+          <h2>What GDV Alliance Means</h2>
           <div className={styles.gridTwo}>
             <article className={styles.card}>
               <h3>GDVAF</h3>
@@ -77,8 +77,8 @@ export default function Home() {
             <article className={styles.pillar}>
               <h3>Enterprise Scale</h3>
               <p>
-                Supporting African ventures and corporates to expand regionally
-                and globally.
+                Supporting ventures and corporates to expand regionally and
+                globally.
               </p>
             </article>
             <article className={styles.pillar}>
@@ -117,20 +117,20 @@ export default function Home() {
 
         <section id="connect" className={styles.section}>
           <div className={styles.ctaBlock}>
-            <h2>Shape Africa&apos;s Next Value Frontier</h2>
+            <h2>Shape the Next Value Frontier</h2>
             <p>
-              Connect with GDVAFRICA to co-create investments, partnerships,
+              Connect with GDV Alliance to co-create investments, partnerships,
               and digital transformation programs with measurable impact.
             </p>
-            <a className={styles.primary} href="mailto:partnerships@gdvafrica.com">
-              partnerships@gdvafrica.com
+            <a className={styles.primary} href="mailto:partnerships@gdvalliance.com">
+              partnerships@gdvalliance.com
             </a>
           </div>
         </section>
       </main>
 
       <footer className={styles.footer}>
-        <p>© {new Date().getFullYear()} GDVAFRICA. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} GDV Alliance. All rights reserved.</p>
       </footer>
     </div>
   );

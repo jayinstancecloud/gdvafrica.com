@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GDVAFRICA | Global Digital Value & Future",
+  title: "GDV Alliance | Global Digital Value & Future",
   description:
-    "GDVAFRICA is a Resource & Investment Corporate Alliance driving digital transformation and strategic investment across Africa.",
+    "GDV Alliance is a Resource & Investment Corporate Alliance driving digital transformation and strategic investment across global markets.",
 };
 
 export default function RootLayout({
