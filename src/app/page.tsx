@@ -6,10 +6,18 @@ export default function Home() {
       <header className={styles.topbar}>
         <p className={styles.brand}>GDV ALLIANCE</p>
         <nav className={styles.nav}>
-          <a href="#about">About</a>
-          <a href="#focus">Focus Areas</a>
-          <a href="#partners">Partners</a>
-          <a href="#connect">Connect</a>
+          <a href="#about">
+            About
+          </a>
+          <a href="#focus">
+            Focus Areas
+          </a>
+          <a href="#partners">
+            Partners
+          </a>
+          <a href="#connect">
+            Connect
+          </a>
         </nav>
       </header>
 
@@ -57,7 +65,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="focus" className={styles.section}>
+        <section className={styles.section}>
+          <span id="focus" className={styles.anchor} aria-hidden="true" />
           <h2>Strategic Focus Areas</h2>
           <div className={styles.gridThree}>
             <article className={styles.pillar}>

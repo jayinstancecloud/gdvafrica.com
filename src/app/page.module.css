@@ -2,13 +2,12 @@
   min-height: 100%;
   background:
     radial-gradient(circle at top right, #1e355f 0%, transparent 28%),
-    linear-gradient(180deg, #08162e 0%, #0d1e3d 45%, #ffffff 45.1%);
+    linear-gradient(180deg, #08162e 0%, #0d1e3d 31%, #ffffff 31.1%);
   color: #09142a;
 }
 
 .topbar {
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 5;
   display: flex;
   justify-content: space-between;
@@ -108,6 +107,14 @@
   display: flex;
   flex-direction: column;
   gap: 22px;
+}
+
+.anchor {
+  display: block;
+  height: 72px;
+  margin-top: -72px;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .section h2 {
@@ -267,4 +274,5 @@
   .heroText {
     font-size: 1rem;
   }
+
 }
