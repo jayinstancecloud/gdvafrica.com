@@ -1,0 +1,270 @@
+.page {
+  min-height: 100%;
+  background:
+    radial-gradient(circle at top right, #1e355f 0%, transparent 28%),
+    linear-gradient(180deg, #08162e 0%, #0d1e3d 45%, #ffffff 45.1%);
+  color: #09142a;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px min(8vw, 84px);
+  background: rgb(8 22 46 / 78%);
+  backdrop-filter: blur(8px);
+}
+
+.brand {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #f8fbff;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav a {
+  color: #d4e7ff;
+  font-size: 0.92rem;
+  transition: color 0.2s ease;
+}
+
+.main {
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+  padding: 56px 0 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.hero {
+  color: #f4f8ff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 840px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.76rem;
+  color: #88b7ff;
+  font-weight: 600;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 4.8vw, 3.7rem);
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+}
+
+.heroText {
+  max-width: 740px;
+  color: #d5e7ff;
+  font-size: 1.08rem;
+  line-height: 1.65;
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.primary,
+.secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  min-height: 44px;
+  padding: 0 22px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.primary {
+  background: #1f79ff;
+  color: #f5f9ff;
+}
+
+.secondary {
+  border: 1px solid #9abbe7;
+  color: #d9ebff;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.section h2 {
+  font-size: clamp(1.4rem, 2.3vw, 2rem);
+  letter-spacing: -0.01em;
+  color: #09142a;
+}
+
+.gridTwo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.card {
+  border: 1px solid #d6e1ef;
+  border-radius: 18px;
+  padding: 24px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  color: #10356b;
+}
+
+.card p {
+  font-size: 1.05rem;
+  color: #17345f;
+  font-weight: 600;
+}
+
+.card span {
+  line-height: 1.65;
+  color: #324e74;
+}
+
+.gridThree {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.pillar {
+  border: 1px solid #d5e2f0;
+  border-radius: 16px;
+  padding: 20px;
+  background: #f7fbff;
+}
+
+.pillar h3 {
+  margin-bottom: 8px;
+  color: #13376b;
+  font-size: 1.05rem;
+}
+
+.pillar p {
+  line-height: 1.56;
+  color: #315076;
+}
+
+.partnerList {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.partnerList li {
+  border-left: 4px solid #2f87ff;
+  padding: 10px 0 10px 14px;
+  color: #22456f;
+  background: #f8fbff;
+  border-radius: 8px;
+}
+
+.ctaBlock {
+  background: linear-gradient(135deg, #0f2f5f 0%, #164e97 100%);
+  border-radius: 22px;
+  padding: clamp(24px, 5vw, 42px);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ctaBlock h2 {
+  color: #f2f8ff;
+}
+
+.ctaBlock p {
+  color: #cce2ff;
+  line-height: 1.65;
+  max-width: 760px;
+}
+
+.ctaBlock .primary {
+  width: fit-content;
+  background: #f6fbff;
+  color: #0f3f83;
+}
+
+.footer {
+  border-top: 1px solid #d5e2f0;
+  background: #fff;
+  padding: 24px min(8vw, 84px) 36px;
+  color: #4e678a;
+  font-size: 0.9rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .nav a:hover {
+    color: #f1f7ff;
+  }
+
+  .primary:hover {
+    transform: translateY(-1px);
+    background: #0b67f1;
+  }
+
+  .secondary:hover {
+    border-color: #d6e8ff;
+    background: rgb(255 255 255 / 12%);
+  }
+}
+
+@media (max-width: 960px) {
+  .gridThree {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .topbar {
+    padding: 16px 18px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav {
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main {
+    width: 92vw;
+    gap: 56px;
+  }
+
+  .gridTwo,
+  .gridThree {
+    grid-template-columns: 1fr;
+  }
+
+  .heroText {
+    font-size: 1rem;
+  }
+}
