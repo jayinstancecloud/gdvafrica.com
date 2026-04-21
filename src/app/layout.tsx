@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "GDV Alliance | Global Digital Value & Future",
   description:
     "GDV Alliance is a Resource & Investment Corporate Alliance driving digital transformation and strategic investment across global markets.",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({

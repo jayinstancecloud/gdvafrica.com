@@ -1,9 +1,7 @@
 .page {
   min-height: 100%;
-  background:
-    radial-gradient(circle at top right, #1e355f 0%, transparent 28%),
-    linear-gradient(180deg, #08162e 0%, #0d1e3d 31%, #ffffff 31.1%);
-  color: #09142a;
+  background: #0d1e3d;
+  color: #e8f2ff;
 }
 
 .topbar {
@@ -120,7 +118,7 @@
 .section h2 {
   font-size: clamp(1.4rem, 2.3vw, 2rem);
   letter-spacing: -0.01em;
-  color: #09142a;
+  color: #f4f8ff;
 }
 
 .gridTwo {
@@ -130,10 +128,10 @@
 }
 
 .card {
-  border: 1px solid #d6e1ef;
+  border: 1px solid rgb(214 232 255 / 28%);
   border-radius: 18px;
   padding: 24px;
-  background: #fff;
+  background: linear-gradient(135deg, #0f2f5f 0%, #164e97 100%);
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -141,18 +139,18 @@
 
 .card h3 {
   font-size: 1.2rem;
-  color: #10356b;
+  color: #f2f8ff;
 }
 
 .card p {
   font-size: 1.05rem;
-  color: #17345f;
+  color: #d7e9ff;
   font-weight: 600;
 }
 
 .card span {
   line-height: 1.65;
-  color: #324e74;
+  color: #c9e0ff;
 }
 
 .gridThree {
@@ -162,21 +160,21 @@
 }
 
 .pillar {
-  border: 1px solid #d5e2f0;
+  border: 1px solid rgb(214 232 255 / 28%);
   border-radius: 16px;
   padding: 20px;
-  background: #f7fbff;
+  background: linear-gradient(135deg, #0f2f5f 0%, #164e97 100%);
 }
 
 .pillar h3 {
   margin-bottom: 8px;
-  color: #13376b;
+  color: #f2f8ff;
   font-size: 1.05rem;
 }
 
 .pillar p {
   line-height: 1.56;
-  color: #315076;
+  color: #c9e0ff;
 }
 
 .partnerList {
@@ -188,8 +186,8 @@
 .partnerList li {
   border-left: 4px solid #2f87ff;
   padding: 10px 0 10px 14px;
-  color: #22456f;
-  background: #f8fbff;
+  color: #d8eaff;
+  background: linear-gradient(135deg, #0f2f5f 0%, #164e97 100%);
   border-radius: 8px;
 }
 
@@ -219,10 +217,10 @@
 }
 
 .footer {
-  border-top: 1px solid #d5e2f0;
-  background: #fff;
+  border-top: 1px solid rgb(214 232 255 / 30%);
+  background: #0d1e3d;
   padding: 24px min(8vw, 84px) 36px;
-  color: #4e678a;
+  color: #c5daff;
   font-size: 0.9rem;
 }
 
